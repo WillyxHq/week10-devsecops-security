@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Bandit
         run: |
-          bandit -r app
+          bandit -r app -ll
 
       - name: Run Dependency Audit
         run: |
