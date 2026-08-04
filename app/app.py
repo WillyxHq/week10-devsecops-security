@@ -5,15 +5,9 @@ import subprocess
 import random
 import pickle
 
-# ====================================
-# Fake Secrets (Intentional for Lab)
-# ====================================
-
-AWS_SECRET_ACCESS_KEY = "AKIAIOSFODNN7EXAMPLE"
-
-GITHUB_PAT = "ghp_1234567890abcdefghijklmnopqrstuvwxyz"
-
-DATABASE_PASSWORD = "MySecurePassword123!"
+AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
+GITHUB_PAT = os.getenv("GITHUB_PAT")
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD")
 
 app = Flask(__name__)
 
