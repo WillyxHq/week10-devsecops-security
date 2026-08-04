@@ -5,13 +5,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   security-checks:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v4
 
@@ -27,18 +29,12 @@ jobs:
           pip install bandit pip-audit
 
       - name: Run Bandit
-        run: |
-          bandit -r app -ll
+        run: bandit -r app -ll
 
       - name: Run Dependency Audit
-        run: |
-          pip-audit
-
-      - name: Install Gitleaks
-        run: |
-          curl -sSfL https://raw.githubusercontent.com/gitleaks/gitleaks/master/install.sh | sh -s -- -b /usr/local/bin
-           sudo mv gitleaks /usr/local/bin/
+        run: pip-audit
 
       - name: Run Gitleaks
-        run: |
-          gitleaks detect --source . --no-git
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
