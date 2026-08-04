@@ -2,8 +2,8 @@ from flask import Flask, request
 import hashlib
 import os
 import subprocess
-import random
-import pickle
+import secrets
+import json
 
 AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 GITHUB_PAT = os.getenv("GITHUB_PAT")
@@ -15,13 +15,13 @@ app = Flask(__name__)
 # Vulnerability 1
 # Hardcoded Secret
 # -------------------------
-API_KEY = "sk_test_1234567890abcdef"
+API_KEY = os.getenv("API_KEY")
 
 # -------------------------
 # Vulnerability 2
 # Hardcoded Password
 # -------------------------
-DB_PASSWORD = "Password123"
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 
 @app.route("/")
@@ -37,7 +37,7 @@ def home():
 def weak_hash():
 
     text = request.args.get("text", "hello")
-    return hashlib.md5(text.encode()).hexdigest()
+    return hashlib.sha256(text.encode()).hexdigest()
 
 
 # -------------------------
@@ -46,10 +46,13 @@ def weak_hash():
 # -------------------------
 @app.route("/ping")
 def ping():
-
     host = request.args.get("host", "127.0.0.1")
 
-    os.system("ping -c 1 " + host)
+    subprocess.run(
+        ["ping", "-c", "1", host],
+    	check=True,
+    	shell=False
+)
 
     return "Ping executed"
 
@@ -62,8 +65,14 @@ def ping():
 def files():
 
     directory = request.args.get("dir", ".")
-
-    subprocess.call("ls " + directory, shell=True)
+   
+    subprocess.run(
+        ["ls", directory],
+        check=True,
+        shell=False,
+        capture_output=True,
+        text=True
+    )
 
     return "Directory Listed"
 
@@ -75,23 +84,20 @@ def files():
 @app.route("/calc")
 def calc():
 
-    expression = request.args.get("exp")
-
-    return str(eval(expression))
-
+	return "Expression evaluation has been disabled for security reasons."
 
 # -------------------------
 # Vulnerability 7
 # pickle.loads()
 # -------------------------
-@app.route("/pickle", methods=["POST"])
+@app.route("/deserialize", methods=["POST"])
 def deserialize():
+    data = request.get_json()
 
-    data = request.data
-
-    obj = pickle.loads(data)
-
-    return str(obj)
+    if data is None:
+        return "Invalid JSON", 400
+ 
+    return str(data)
 
 
 # -------------------------
@@ -101,8 +107,8 @@ def deserialize():
 @app.route("/token")
 def token():
 
-    return str(random.random())
+    return secrets.token_hex(16)
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
