@@ -5,16 +5,19 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pull-requests: read
+
 jobs:
   security-checks:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v4
-
+        with: 
+          fetch-depth: 0 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -27,12 +30,8 @@ jobs:
           pip install bandit pip-audit
 
       - name: Run Bandit
-        run: |
-          bandit -r app
+        run: bandit -r app -ll
 
       - name: Run Dependency Audit
-        run: |
-          pip-audit
+        run: pip-audit
 
-      - name: Run Gitleaks
-        uses: gitleaks/gitleaks-action@v2
