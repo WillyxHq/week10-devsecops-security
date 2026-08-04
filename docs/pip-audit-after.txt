@@ -1,0 +1,444 @@
+Name              Version ID                  Fix Versions
+----------------- ------- ------------------- --------------------
+aiohttp           3.13.3  PYSEC-2026-2102     3.13.4
+aiohttp           3.13.3  PYSEC-2026-237      3.14.1
+aiohttp           3.13.3  PYSEC-2026-2104     3.14.0
+aiohttp           3.13.3  PYSEC-2026-2103     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2112     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2111     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2113     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2102     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2109     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2110     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2108     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2105     3.14.0
+aiohttp           3.13.3  PYSEC-2026-2098     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2096     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2101     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2095     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2106     3.14.0
+aiohttp           3.13.3  PYSEC-2026-2100     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2097     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2107     3.14.1
+aiohttp           3.13.3  PYSEC-2026-2099     3.13.4
+aiohttp           3.13.3  PYSEC-2026-2094     3.13.4
+aiohttp           3.13.3  CVE-2026-59881      3.14.2
+aiohttp           3.13.3  CVE-2026-69243      3.14.2
+aiohttp           3.13.3  CVE-2026-69244      3.14.3
+bleach            6.3.0   GHSA-g75f-g53v-794x
+bleach            6.3.0   GHSA-gj48-438w-jh9v 6.4.0
+bleach            6.3.0   GHSA-8rfp-98v4-mmr6 6.4.0
+capstone          5.0.7   PYSEC-2026-3544     5.0.8
+click             8.1.8   PYSEC-2026-2132     8.3.3
+cryptography      46.0.5  PYSEC-2026-35       46.0.6
+cryptography      46.0.5  PYSEC-2026-36       46.0.7
+cryptography      46.0.5  PYSEC-2026-36       46.0.7
+cryptography      46.0.5  PYSEC-2026-35       46.0.6
+cryptography      46.0.5  GHSA-537c-gmf6-5ccf 48.0.1
+cryptography      46.0.5  CVE-2026-69248      49.0.0
+cryptography      46.0.5  CVE-2026-69247      50.0.0
+cryptography      46.0.5  CVE-2026-69249      49.0.0
+django            4.2.29  PYSEC-2026-48       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-49       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-53       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-52       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-51       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-53       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-48       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-49       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-52       4.2.30,5.2.13,6.0.4
+django            4.2.29  PYSEC-2026-51       4.2.30,5.2.13,6.0.4
+ecdsa             0.19.1  PYSEC-2026-1325
+ecdsa             0.19.1  PYSEC-2026-2467     0.19.2
+flask             3.1.2   PYSEC-2026-2151     3.1.3
+gdal              3.12.2  PYSEC-2026-193      3.13.1
+gdal              3.12.2  PYSEC-2026-2154     3.13.0
+gdal              3.12.2  PYSEC-2026-2156     3.13.0
+gdal              3.12.2  PYSEC-2026-2155     3.13.0
+gdal              3.12.2  PYSEC-2026-2153     3.13.0
+gdal              3.12.2  PYSEC-2026-2157     3.13.0
+gdal              3.12.2  CVE-2026-8212       3.13.0rc1
+gitpython         3.0.6   PYSEC-2024-4        3.1.41
+gitpython         3.0.6   PYSEC-2024-4        3.1.41
+gitpython         3.0.6   PYSEC-2022-42992    3.1.30
+gitpython         3.0.6   PYSEC-2023-137      3.1.32
+gitpython         3.0.6   PYSEC-2023-161      3.1.33
+gitpython         3.0.6   PYSEC-2023-165      3.1.35
+gitpython         3.0.6   PYSEC-2026-2161     3.1.47
+gitpython         3.0.6   PYSEC-2026-2162     3.1.48
+gitpython         3.0.6   PYSEC-2026-2163     3.1.49
+gitpython         3.0.6   GHSA-mv93-w799-cj2w 3.1.50
+gitpython         3.0.6   GHSA-2f96-g7mh-g2hx 3.1.51
+gitpython         3.0.6   GHSA-956x-8gvw-wg5v 3.1.51
+gitpython         3.0.6   GHSA-3rp5-jjmw-4wv2 3.1.53
+gitpython         3.0.6   GHSA-fjr4-x663-mwxc 3.1.54
+gitpython         3.0.6   GHSA-6p8h-3wgx-97gf 3.1.54
+gitpython         3.0.6   GHSA-r9mr-m37c-5fr3 3.1.54
+gitpython         3.0.6   GHSA-94p4-4cq8-9g67 3.1.55
+gitpython         3.0.6   GHSA-3f7w-8rr8-f37f 3.1.57
+gitpython         3.0.6   GHSA-p538-c434-8v24 3.1.56
+h11               0.14.0  PYSEC-2026-348      0.16.0
+idna              3.11    PYSEC-2026-215      3.15
+idna              3.11    PYSEC-2026-215      3.15
+jaraco-context    6.0.1   CVE-2026-23949      6.1.0
+jwcrypto          1.5.6   PYSEC-2026-70       1.5.7
+jwcrypto          1.5.6   PYSEC-2026-70       1.5.7
+lxml              6.0.2   PYSEC-2026-87       6.1.0
+lxml              6.0.2   PYSEC-2026-87       6.1.0
+marshmallow       3.26.1  PYSEC-2026-1605     3.26.2,4.1.2
+mistune           3.1.4   PYSEC-2026-168      3.2.1
+mistune           3.1.4   PYSEC-2026-168      3.2.1
+mistune           3.1.4   PYSEC-2026-2652     3.3.0
+mistune           3.1.4   PYSEC-2026-2217     3.3.0
+mistune           3.1.4   PYSEC-2026-2214     3.3.0
+mistune           3.1.4   PYSEC-2026-2215     3.3.0
+mistune           3.1.4   PYSEC-2026-2212     3.3.0
+mistune           3.1.4   PYSEC-2026-2216     3.3.0
+mistune           3.1.4   PYSEC-2026-2213     3.3.0
+mistune           3.1.4   PYSEC-2026-2218     3.3.0
+mistune           3.1.4   PYSEC-2026-2208     3.2.1
+mistune           3.1.4   PYSEC-2026-2211     3.3.0
+mistune           3.1.4   PYSEC-2026-2210     3.3.0
+mistune           3.1.4   PYSEC-2026-2206     3.2.1
+mistune           3.1.4   PYSEC-2026-2209     3.2.1
+mistune           3.1.4   PYSEC-2026-2207     3.2.1
+mistune           3.1.4   PYSEC-2026-2651     3.2.1
+mistune           3.1.4   PYSEC-2026-2652     3.3.0
+mistune           3.1.4   PYSEC-2026-2216     3.3.0
+mistune           3.1.4   PYSEC-2026-2215     3.3.0
+mistune           3.1.4   PYSEC-2026-2210     3.3.0
+mistune           3.1.4   PYSEC-2026-2214     3.3.0
+mistune           3.1.4   PYSEC-2026-2217     3.3.0
+mistune           3.1.4   PYSEC-2026-2218     3.3.0
+mistune           3.1.4   PYSEC-2026-2213     3.3.0
+mistune           3.1.4   PYSEC-2026-2211     3.3.0
+mitmproxy         12.2.1  PYSEC-2026-92       12.2.2
+mitmproxy         12.2.1  PYSEC-2026-92       12.2.2
+msgpack           1.1.2   GHSA-6v7p-g79w-8964 1.2.1
+paramiko          4.0.0   PYSEC-2026-2858
+pillow            12.0.0  PYSEC-2026-165      12.2.0
+pillow            12.0.0  PYSEC-2026-165      12.2.0
+pillow            12.0.0  PYSEC-2026-2250     12.2.0
+pillow            12.0.0  PYSEC-2026-2253     12.3.0
+pillow            12.0.0  PYSEC-2026-2251     12.2.0
+pillow            12.0.0  PYSEC-2026-2255     12.3.0
+pillow            12.0.0  PYSEC-2026-2257     12.3.0
+pillow            12.0.0  PYSEC-2026-2256     12.3.0
+pillow            12.0.0  PYSEC-2026-2254     12.3.0
+pillow            12.0.0  PYSEC-2026-2252     12.2.0
+pillow            12.0.0  PYSEC-2026-2249     12.1.1
+pillow            12.0.0  PYSEC-2026-2874     12.2.0
+pillow            12.0.0  PYSEC-2026-3453     12.3.0
+pillow            12.0.0  PYSEC-2026-3451     12.3.0
+pillow            12.0.0  PYSEC-2026-3452     12.3.0
+pillow            12.0.0  PYSEC-2026-2254     12.3.0
+pillow            12.0.0  PYSEC-2026-2253     12.3.0
+pillow            12.0.0  PYSEC-2026-2256     12.3.0
+pillow            12.0.0  PYSEC-2026-2255     12.3.0
+pillow            12.0.0  PYSEC-2026-3451     12.3.0
+pillow            12.0.0  PYSEC-2026-3452     12.3.0
+pillow            12.0.0  PYSEC-2026-3453     12.3.0
+pillow            12.0.0  PYSEC-2026-3454     12.3.0
+pillow            12.0.0  PYSEC-2026-3495     12.3.0
+pillow            12.0.0  PYSEC-2026-3496     12.3.0
+pillow            12.0.0  PYSEC-2026-3494     12.3.0
+pillow            12.0.0  PYSEC-2026-3493     12.3.0
+protobuf          4.21.12 PYSEC-2026-1806     4.25.8,5.29.5,6.31.1
+protobuf          4.21.12 PYSEC-2026-1805     5.29.6,6.33.5
+pyasn1            0.6.2   PYSEC-2026-2263     0.6.3
+pyasn1            0.6.2   PYSEC-2026-2263     0.6.3
+pyasn1            0.6.2   PYSEC-2026-3457     0.6.4
+pyasn1            0.6.2   PYSEC-2026-3456     0.6.4
+pyasn1            0.6.2   PYSEC-2026-3455     0.6.4
+pyasn1            0.6.2   PYSEC-2026-3455     0.6.4
+pydantic-settings 2.13.0  GHSA-4xgf-cpjx-pc3j 2.14.2
+pygments          2.19.2  PYSEC-2026-2987     2.20.0
+pyjwt             2.11.0  PYSEC-2026-120      2.12.0
+pyjwt             2.11.0  PYSEC-2026-120      2.12.0
+pyjwt             2.11.0  PYSEC-2026-179      2.13.0
+pyjwt             2.11.0  PYSEC-2026-175      2.13.0
+pyjwt             2.11.0  PYSEC-2026-177      2.13.0
+pyjwt             2.11.0  PYSEC-2026-178      2.13.0
+pyjwt             2.11.0  PYSEC-2026-176      2.12.1
+pyjwt             2.11.0  PYSEC-2026-177      2.13.0
+pyjwt             2.11.0  PYSEC-2026-179      2.13.0
+pyjwt             2.11.0  PYSEC-2026-176      2.13.0
+pyjwt             2.11.0  PYSEC-2026-178      2.13.0
+pynacl            1.5.0   PYSEC-2026-3002     1.6.2
+pyopenssl         25.3.0  PYSEC-2026-2269     26.0.0
+pyopenssl         25.3.0  PYSEC-2026-2268     26.0.0
+pypdf             5.4.0   PYSEC-2026-1833     6.1.3
+pypdf             5.4.0   PYSEC-2026-1829     6.6.0
+pypdf             5.4.0   PYSEC-2026-1832     6.4.0
+pypdf             5.4.0   PYSEC-2026-1830     6.0.0
+pypdf             5.4.0   PYSEC-2026-1831     6.1.3
+pypdf             5.4.0   PYSEC-2026-1827     6.6.2
+pypdf             5.4.0   PYSEC-2026-1828     6.6.0
+pypdf             5.4.0   PYSEC-2026-3023     6.9.1
+pypdf             5.4.0   PYSEC-2026-3022     6.13.0
+pypdf             5.4.0   PYSEC-2026-3017     6.7.4
+pypdf             5.4.0   PYSEC-2026-3019     6.8.0
+pypdf             5.4.0   PYSEC-2026-3020     6.12.2
+pypdf             5.4.0   PYSEC-2026-3018     6.13.1
+pypdf             5.4.0   PYSEC-2026-3021     6.10.1
+pypdf             5.4.0   PYSEC-2026-3011     6.10.2
+pypdf             5.4.0   PYSEC-2026-3007     6.10.2
+pypdf             5.4.0   PYSEC-2026-3004     6.12.0
+pypdf             5.4.0   PYSEC-2026-3005     6.7.2
+pypdf             5.4.0   PYSEC-2026-3006     6.10.0
+pypdf             5.4.0   PYSEC-2026-3014     6.7.5
+pypdf             5.4.0   PYSEC-2026-3024     6.7.1
+pypdf             5.4.0   PYSEC-2026-3026     6.10.2
+pypdf             5.4.0   PYSEC-2026-3016     6.12.0
+pypdf             5.4.0   PYSEC-2026-3010     6.12.2
+pypdf             5.4.0   PYSEC-2026-3015     6.7.1
+pypdf             5.4.0   PYSEC-2026-3025     6.12.1
+pypdf             5.4.0   PYSEC-2026-3013     6.7.1
+pypdf             5.4.0   PYSEC-2026-3009     6.13.0
+pypdf             5.4.0   PYSEC-2026-3012     6.9.2
+pypdf             5.4.0   PYSEC-2026-3027     6.7.3
+pypdf             5.4.0   GHSA-jm82-fx9c-mx94 6.13.3
+pypdf             5.4.0   CVE-2026-59938      6.14.0
+pypdf             5.4.0   CVE-2026-59937      6.14.0
+pypdf             5.4.0   CVE-2026-59935      6.14.2
+pypdf             5.4.0   CVE-2026-59936      6.14.1
+pytest            9.0.2   PYSEC-2026-1845     9.0.3
+python-dotenv     1.0.1   PYSEC-2026-2270     1.2.2
+python-engineio   4.13.0  PYSEC-2026-3033     4.13.2
+python-engineio   4.13.0  PYSEC-2026-3032     4.13.2
+python-multipart  0.0.20  PYSEC-2026-1852     0.0.22
+python-multipart  0.0.20  PYSEC-2026-3038     0.0.26
+python-multipart  0.0.20  PYSEC-2026-3037     0.0.30
+python-multipart  0.0.20  PYSEC-2026-3036     0.0.30
+python-multipart  0.0.20  PYSEC-2026-3040     0.0.31
+python-multipart  0.0.20  PYSEC-2026-3039     0.0.27
+python-socketio   5.16.0  PYSEC-2026-3042     5.16.2
+pyzipper          0.3.6   PYSEC-2026-3044     0.4.0
+requests          2.32.5  PYSEC-2026-2275     2.33.0
+setuptools        78.1.1  PYSEC-2026-3447     83.0.0
+setuptools        78.1.1  PYSEC-2026-3447     83.0.0
+sh                2.2.1   PYSEC-2026-3540     2.2.4
+soupsieve         2.8.3   PYSEC-2026-3072     2.8.4
+soupsieve         2.8.3   PYSEC-2026-3071     2.8.4
+starlette         0.50.0  PYSEC-2026-161      1.0.1
+starlette         0.50.0  PYSEC-2026-161      1.0.1
+starlette         0.50.0  PYSEC-2026-248      1.3.0
+starlette         0.50.0  PYSEC-2026-249      1.3.1
+starlette         0.50.0  PYSEC-2026-248      1.3.0
+starlette         0.50.0  PYSEC-2026-2281     1.1.0
+starlette         0.50.0  PYSEC-2026-2280     1.1.0
+tornado           6.5.4   PYSEC-2026-140      6.5.5
+tornado           6.5.4   PYSEC-2026-140      6.5.5
+tornado           6.5.4   PYSEC-2026-2287     6.5.5
+tornado           6.5.4   PYSEC-2026-3387     6.5.6
+tornado           6.5.4   PYSEC-2026-3388     6.5.6
+tornado           6.5.4   PYSEC-2026-3389     6.5.6
+tornado           6.5.4   GHSA-pw6j-qg29-8w7f 6.5.7
+twisted           25.5.0  PYSEC-2026-160      26.4.0
+twisted           25.5.0  PYSEC-2026-160      26.4.0rc2
+ujson             5.11.0  PYSEC-2026-2294     5.13.0
+ujson             5.11.0  PYSEC-2026-2292     5.12.0
+ujson             5.11.0  PYSEC-2026-2291     5.12.0
+ujson             5.11.0  PYSEC-2026-2294     5.13.0
+ujson             5.11.0  PYSEC-2026-2293     5.12.1
+urllib3           2.6.3   PYSEC-2026-142      2.7.0
+urllib3           2.6.3   PYSEC-2026-142      2.7.0
+urllib3           2.6.3   PYSEC-2026-141      2.7.0
+weasyprint        62.3    PYSEC-2026-2034     68.0
+weasyprint        62.3    PYSEC-2026-3412
+webob             1.8.9   PYSEC-2026-251      1.8.10
+webob             1.8.9   PYSEC-2026-251      1.8.10
+werkzeug          3.1.5   PYSEC-2026-2320     3.1.6
+
+Name                         Skip Reason
+---------------------------- -------------------------------------------------------------------------------------------
+backdoor-factory             Dependency not found on PyPI and could not be audited: backdoor-factory (0.0.0)
+bcc                          Dependency not found on PyPI and could not be audited: bcc (0.35.0)
+binwalk                      Dependency not found on PyPI and could not be audited: binwalk (2.4.3)
+brlapi                       Dependency not found on PyPI and could not be audited: brlapi (0.8.8)
+cheroot                      Dependency not found on PyPI and could not be audited: cheroot (11.1.2+ds1)
+cmd2                         Dependency not found on PyPI and could not be audited: cmd2 (2.5.11+ds)
+crit                         Dependency not found on PyPI and could not be audited: crit (4.2)
+cupshelpers                  Dependency not found on PyPI and could not be audited: cupshelpers (1.0)
+flask-classful               Dependency not found on PyPI and could not be audited: flask-classful (0.15.0.dev1)
+impacket                     Dependency not found on PyPI and could not be audited: impacket (0.14.0.dev0)
+kali-tweaks                  Dependency not found on PyPI and could not be audited: kali-tweaks (2025.4.0)
+lightdm-gtk-greeter-settings Dependency not found on PyPI and could not be audited: lightdm-gtk-greeter-settings (1.2.3)
+louis                        Dependency not found on PyPI and could not be audited: louis (3.37.0)
+lz4                          Dependency not found on PyPI and could not be audited: lz4 (4.4.5+dfsg)
+mako                         Dependency not found on PyPI and could not be audited: mako (1.3.10.dev0)
+matplotlib                   Dependency not found on PyPI and could not be audited: matplotlib (3.10.7+dfsg1)
+ndiff                        Dependency not found on PyPI and could not be audited: ndiff (7.96)
+neo4j                        Dependency not found on PyPI and could not be audited: neo4j (5.2.dev0)
+netexec                      Dependency not found on PyPI and could not be audited: netexec (1.5.1)
+odfpy                        Dependency not found on PyPI and could not be audited: odfpy (1.4.2)
+onboard                      Dependency not found on PyPI and could not be audited: onboard (1.4.3.post9)
+pcapy                        Dependency not found on PyPI and could not be audited: pcapy (0.11.5.dev0)
+playwright                   Dependency not found on PyPI and could not be audited: playwright (1.55.0+ds)
+proton-core                  Dependency not found on PyPI and could not be audited: proton-core (0.7.4)
+proton-keyring-linux         Dependency not found on PyPI and could not be audited: proton-keyring-linux (0.2.3)
+proton-vpn-api-core          Dependency not found on PyPI and could not be audited: proton-vpn-api-core (5.2.5)
+proton-vpn-daemon            Dependency not found on PyPI and could not be audited: proton-vpn-daemon (0.13.7)
+proton-vpn-gtk-app           Dependency not found on PyPI and could not be audited: proton-vpn-gtk-app (4.16.5)
+pycriu                       Dependency not found on PyPI and could not be audited: pycriu (4.2)
+pypng                        Dependency not found on PyPI and could not be audited: pypng (0.20250521.0)
+pysecretsocks                Dependency not found on PyPI and could not be audited: pysecretsocks (0.9.1)
+pyshodan                     Dependency not found on PyPI and could not be audited: pyshodan (0.2.6)
+python-apt                   Dependency not found on PyPI and could not be audited: python-apt (3.1.0)
+pyvnc                        Dependency not found on PyPI and could not be audited: pyvnc (0.1)
+scapy                        Dependency not found on PyPI and could not be audited: scapy (2.7.1)
+suricata-update              Dependency not found on PyPI and could not be audited: suricata-update (1.3.7)
+telnetlib                    Dependency not found on PyPI and could not be audited: telnetlib (0.0.0)
+theharvester                 Dependency not found on PyPI and could not be audited: theharvester (4.10.1)
+types-aiofiles               Dependency not found on PyPI and could not be audited: types-aiofiles (25.1)
+types-antlr4-python3-runtime Dependency not found on PyPI and could not be audited: types-antlr4-python3-runtime (4.13)
+types-assertpy               Dependency not found on PyPI and could not be audited: types-assertpy (1.1)
+types-atheris                Dependency not found on PyPI and could not be audited: types-atheris (3.0)
+types-auth0-python           Dependency not found on PyPI and could not be audited: types-auth0-python (4.10)
+types-authlib                Dependency not found on PyPI and could not be audited: types-authlib (1.6.6)
+types-aws-xray-sdk           Dependency not found on PyPI and could not be audited: types-aws-xray-sdk (2.15)
+types-binaryornot            Dependency not found on PyPI and could not be audited: types-binaryornot (0.4)
+types-bleach                 Dependency not found on PyPI and could not be audited: types-bleach (6.3)
+types-boltons                Dependency not found on PyPI and could not be audited: types-boltons (25.0)
+types-braintree              Dependency not found on PyPI and could not be audited: types-braintree (4.42)
+types-cachetools             Dependency not found on PyPI and could not be audited: types-cachetools (6.2)
+types-capturer               Dependency not found on PyPI and could not be audited: types-capturer (3.0)
+types-cffi                   Dependency not found on PyPI and could not be audited: types-cffi (1.17)
+types-channels               Dependency not found on PyPI and could not be audited: types-channels (4.3)
+types-click-log              Dependency not found on PyPI and could not be audited: types-click-log (0.4)
+types-click-shell            Dependency not found on PyPI and could not be audited: types-click-shell (2.1)
+types-click-web              Dependency not found on PyPI and could not be audited: types-click-web (0.8)
+types-colorful               Dependency not found on PyPI and could not be audited: types-colorful (0.5)
+types-convertdate            Dependency not found on PyPI and could not be audited: types-convertdate (2.4)
+types-croniter               Dependency not found on PyPI and could not be audited: types-croniter (6.0.0)
+types-dateparser             Dependency not found on PyPI and could not be audited: types-dateparser (1.2.2)
+types-decorator              Dependency not found on PyPI and could not be audited: types-decorator (5.2)
+types-defusedxml             Dependency not found on PyPI and could not be audited: types-defusedxml (0.7)
+types-deprecated             Dependency not found on PyPI and could not be audited: types-deprecated (1.3.1)
+types-dirhash                Dependency not found on PyPI and could not be audited: types-dirhash (0.5)
+types-django-filter          Dependency not found on PyPI and could not be audited: types-django-filter (25.2)
+types-django-import-export   Dependency not found on PyPI and could not be audited: types-django-import-export (4.4)
+types-docker                 Dependency not found on PyPI and could not be audited: types-docker (7.1)
+types-docutils               Dependency not found on PyPI and could not be audited: types-docutils (0.22.3)
+types-editdistance           Dependency not found on PyPI and could not be audited: types-editdistance (0.8)
+types-ephem                  Dependency not found on PyPI and could not be audited: types-ephem (4.2)
+types-et-xmlfile             Dependency not found on PyPI and could not be audited: types-et-xmlfile (2.0)
+types-fanstatic              Dependency not found on PyPI and could not be audited: types-fanstatic (1.6)
+types-flake8                 Dependency not found on PyPI and could not be audited: types-flake8 (7.3)
+types-flake8-bugbear         Dependency not found on PyPI and could not be audited: types-flake8-bugbear (25.11.29)
+types-flake8-builtins        Dependency not found on PyPI and could not be audited: types-flake8-builtins (3.1)
+types-flake8-rst-docstrings  Dependency not found on PyPI and could not be audited: types-flake8-rst-docstrings (0.4)
+types-flake8-simplify        Dependency not found on PyPI and could not be audited: types-flake8-simplify (0.30)
+types-flake8-typing-imports  Dependency not found on PyPI and could not be audited: types-flake8-typing-imports (1.17)
+types-flask-cors             Dependency not found on PyPI and could not be audited: types-flask-cors (6.0)
+types-flask-migrate          Dependency not found on PyPI and could not be audited: types-flask-migrate (4.1)
+types-flask-socketio         Dependency not found on PyPI and could not be audited: types-flask-socketio (5.6)
+types-fpdf2                  Dependency not found on PyPI and could not be audited: types-fpdf2 (2.8.4)
+types-gdb                    Dependency not found on PyPI and could not be audited: types-gdb (16.3)
+types-geopandas              Dependency not found on PyPI and could not be audited: types-geopandas (1.1.2)
+types-gevent                 Dependency not found on PyPI and could not be audited: types-gevent (25.9)
+types-google-cloud-ndb       Dependency not found on PyPI and could not be audited: types-google-cloud-ndb (2.4)
+types-greenlet               Dependency not found on PyPI and could not be audited: types-greenlet (3.3)
+types-grpcio                 Dependency not found on PyPI and could not be audited: types-grpcio (1)
+types-grpcio-channelz        Dependency not found on PyPI and could not be audited: types-grpcio-channelz (1)
+types-grpcio-health-checking Dependency not found on PyPI and could not be audited: types-grpcio-health-checking (1)
+types-grpcio-reflection      Dependency not found on PyPI and could not be audited: types-grpcio-reflection (1)
+types-grpcio-status          Dependency not found on PyPI and could not be audited: types-grpcio-status (1)
+types-gunicorn               Dependency not found on PyPI and could not be audited: types-gunicorn (25.0)
+types-hdbcli                 Dependency not found on PyPI and could not be audited: types-hdbcli (2.25)
+types-hnswlib                Dependency not found on PyPI and could not be audited: types-hnswlib (0.8)
+types-httplib2               Dependency not found on PyPI and could not be audited: types-httplib2 (0.31.2)
+types-hvac                   Dependency not found on PyPI and could not be audited: types-hvac (2.4)
+types-ibm-db                 Dependency not found on PyPI and could not be audited: types-ibm-db (3.2.6)
+types-icalendar              Dependency not found on PyPI and could not be audited: types-icalendar (6.3.2)
+types-jetson-gpio            Dependency not found on PyPI and could not be audited: types-jetson-gpio (2.1.12)
+types-jmespath               Dependency not found on PyPI and could not be audited: types-jmespath (1.1)
+types-jsonnet                Dependency not found on PyPI and could not be audited: types-jsonnet (0.21)
+types-jsonschema             Dependency not found on PyPI and could not be audited: types-jsonschema (4.26.0)
+types-jwcrypto               Dependency not found on PyPI and could not be audited: types-jwcrypto (1.5)
+types-libsass                Dependency not found on PyPI and could not be audited: types-libsass (0.23)
+types-lunardate              Dependency not found on PyPI and could not be audited: types-lunardate (0.2)
+types-lupa                   Dependency not found on PyPI and could not be audited: types-lupa (2.6)
+types-lzstring               Dependency not found on PyPI and could not be audited: types-lzstring (1.0)
+types-m3u8                   Dependency not found on PyPI and could not be audited: types-m3u8 (6.0)
+types-markdown               Dependency not found on PyPI and could not be audited: types-markdown (3.10)
+types-mock                   Dependency not found on PyPI and could not be audited: types-mock (5.2)
+types-mypy-extensions        Dependency not found on PyPI and could not be audited: types-mypy-extensions (1.1)
+types-nanoid                 Dependency not found on PyPI and could not be audited: types-nanoid (2.0.0)
+types-nanoleafapi            Dependency not found on PyPI and could not be audited: types-nanoleafapi (2.1)
+types-netaddr                Dependency not found on PyPI and could not be audited: types-netaddr (1.3)
+types-netifaces              Dependency not found on PyPI and could not be audited: types-netifaces (0.11)
+types-networkx               Dependency not found on PyPI and could not be audited: types-networkx (3.6.1)
+types-oauthlib               Dependency not found on PyPI and could not be audited: types-oauthlib (3.3)
+types-objgraph               Dependency not found on PyPI and could not be audited: types-objgraph (3.6)
+types-olefile                Dependency not found on PyPI and could not be audited: types-olefile (0.47)
+types-openpyxl               Dependency not found on PyPI and could not be audited: types-openpyxl (3.1.5)
+types-paramiko               Dependency not found on PyPI and could not be audited: types-paramiko (4.0)
+types-parsimonious           Dependency not found on PyPI and could not be audited: types-parsimonious (0.11)
+types-peewee                 Dependency not found on PyPI and could not be audited: types-peewee (3.19.0)
+types-pep8-naming            Dependency not found on PyPI and could not be audited: types-pep8-naming (0.15)
+types-pexpect                Dependency not found on PyPI and could not be audited: types-pexpect (4.9)
+types-pony                   Dependency not found on PyPI and could not be audited: types-pony (0.7)
+types-protobuf               Dependency not found on PyPI and could not be audited: types-protobuf (6.32.1)
+types-psutil                 Dependency not found on PyPI and could not be audited: types-psutil (7.2.2)
+types-punq                   Dependency not found on PyPI and could not be audited: types-punq (0.7)
+types-pyasn1                 Dependency not found on PyPI and could not be audited: types-pyasn1 (0.6)
+types-pycurl                 Dependency not found on PyPI and could not be audited: types-pycurl (7.45.7)
+types-pyfarmhash             Dependency not found on PyPI and could not be audited: types-pyfarmhash (0.4)
+types-pyflakes               Dependency not found on PyPI and could not be audited: types-pyflakes (3.4)
+types-pygments               Dependency not found on PyPI and could not be audited: types-pygments (2.19)
+types-pyinstaller            Dependency not found on PyPI and could not be audited: types-pyinstaller (6.18)
+types-pyluach                Dependency not found on PyPI and could not be audited: types-pyluach (2.3)
+types-pymeeus                Dependency not found on PyPI and could not be audited: types-pymeeus (0.5)
+types-pynput                 Dependency not found on PyPI and could not be audited: types-pynput (1.8.1)
+types-pyperclip              Dependency not found on PyPI and could not be audited: types-pyperclip (1.9)
+types-pyrfc3339              Dependency not found on PyPI and could not be audited: types-pyrfc3339 (2.0.1)
+types-pyscreeze              Dependency not found on PyPI and could not be audited: types-pyscreeze (1.0.1)
+types-pysocks                Dependency not found on PyPI and could not be audited: types-pysocks (1.7.1)
+types-python-crontab         Dependency not found on PyPI and could not be audited: types-python-crontab (3.3)
+types-python-dateutil        Dependency not found on PyPI and could not be audited: types-python-dateutil (2.9)
+types-python-http-client     Dependency not found on PyPI and could not be audited: types-python-http-client (3.3.7)
+types-python-jenkins         Dependency not found on PyPI and could not be audited: types-python-jenkins (1.8.3)
+types-python-jose            Dependency not found on PyPI and could not be audited: types-python-jose (3.5)
+types-pytz                   Dependency not found on PyPI and could not be audited: types-pytz (2025.2)
+types-pywin32                Dependency not found on PyPI and could not be audited: types-pywin32 (311)
+types-qrbill                 Dependency not found on PyPI and could not be audited: types-qrbill (1.2)
+types-qrcode                 Dependency not found on PyPI and could not be audited: types-qrcode (8.2)
+types-ratelimit              Dependency not found on PyPI and could not be audited: types-ratelimit (2.2)
+types-regex                  Dependency not found on PyPI and could not be audited: types-regex (2026.1.15)
+types-reportlab              Dependency not found on PyPI and could not be audited: types-reportlab (4.4.9)
+types-requests               Dependency not found on PyPI and could not be audited: types-requests (2.32.4)
+types-requests-oauthlib      Dependency not found on PyPI and could not be audited: types-requests-oauthlib (2.0)
+types-rfc3339-validator      Dependency not found on PyPI and could not be audited: types-rfc3339-validator (0.1)
+types-rpi-gpio               Dependency not found on PyPI and could not be audited: types-rpi-gpio (0.7)
+types-seaborn                Dependency not found on PyPI and could not be audited: types-seaborn (0.13.2)
+types-send2trash             Dependency not found on PyPI and could not be audited: types-send2trash (2.1)
+types-setuptools             Dependency not found on PyPI and could not be audited: types-setuptools (80.10)
+types-shapely                Dependency not found on PyPI and could not be audited: types-shapely (2.1)
+types-simple-websocket       Dependency not found on PyPI and could not be audited: types-simple-websocket (1.1)
+types-simplejson             Dependency not found on PyPI and could not be audited: types-simplejson (3.20)
+types-six                    Dependency not found on PyPI and could not be audited: types-six (1.17)
+types-str2bool               Dependency not found on PyPI and could not be audited: types-str2bool (1.1)
+types-tensorflow             Dependency not found on PyPI and could not be audited: types-tensorflow (2.18.0)
+types-tgcrypto               Dependency not found on PyPI and could not be audited: types-tgcrypto (1.2)
+types-tqdm                   Dependency not found on PyPI and could not be audited: types-tqdm (4.67.3)
+types-ttkthemes              Dependency not found on PyPI and could not be audited: types-ttkthemes (3.3)
+types-tzdata                 Dependency not found on PyPI and could not be audited: types-tzdata (2025)
+types-ujson                  Dependency not found on PyPI and could not be audited: types-ujson (5.10)
+types-unidiff                Dependency not found on PyPI and could not be audited: types-unidiff (0.7)
+types-vobject                Dependency not found on PyPI and could not be audited: types-vobject (0.9.9)
+types-waitress               Dependency not found on PyPI and could not be audited: types-waitress (3.0.1)
+types-watchpoints            Dependency not found on PyPI and could not be audited: types-watchpoints (0.2.5)
+types-webencodings           Dependency not found on PyPI and could not be audited: types-webencodings (0.5)
+types-wtforms                Dependency not found on PyPI and could not be audited: types-wtforms (3.2.1)
+types-wurlitzer              Dependency not found on PyPI and could not be audited: types-wurlitzer (3.1)
+types-www-authenticate       Dependency not found on PyPI and could not be audited: types-www-authenticate (0.9)
+types-xdgenvpy               Dependency not found on PyPI and could not be audited: types-xdgenvpy (3.0)
+types-xlrd                   Dependency not found on PyPI and could not be audited: types-xlrd (2.0)
+types-xmldiff                Dependency not found on PyPI and could not be audited: types-xmldiff (2.7)
+types-xmltodict              Dependency not found on PyPI and could not be audited: types-xmltodict (1.0.1)
+types-yt-dlp                 Dependency not found on PyPI and could not be audited: types-yt-dlp (2026.1.31)
+types-zstd                   Dependency not found on PyPI and could not be audited: types-zstd (1.5.7.3)
+types-zxcvbn                 Dependency not found on PyPI and could not be audited: types-zxcvbn (4.5)
+volatility3                  Dependency not found on PyPI and could not be audited: volatility3 (2.28.1)
+zenmap                       Dependency not found on PyPI and could not be audited: zenmap (7.97)
